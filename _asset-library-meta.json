@@ -1,0 +1,14 @@
+{
+  "api_versions": {
+    "v1": {
+      "url": "_v1/asset-index.json",
+      "hash": "SHA256:09f5e80560596b858e6251103fd8884f4edba86be552edfe35d5d4becbf4aa6c"
+    }
+  },
+  "name": "Bradley Node Presets",
+  "contact": {
+    "name": "Bradley Animation",
+    "url": "https://ko-fi.com/bradleyanimation",
+    "email": "bradleyanimation120@gmail.com"
+  }
+}
