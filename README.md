@@ -7,5 +7,5 @@ authored by Bradley Animation.
 you can find me at
 https://www.youtube.com/@bradleyanimation120
 
-files are sale at
+files are on sale at
 https://ko-fi.com/bradleyanimation
