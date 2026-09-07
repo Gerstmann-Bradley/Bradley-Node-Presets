@@ -1,0 +1,547 @@
+Done:
+*Hair on Geometry
+-add default rotation
+	-only for mesh mode.
+	-curve mode exposes surface span instead.
+x-support various bending?
+	-for 2500 curves, single curve 0.6 ms, instances 100 ms.
+	-> not worth it.
+
+Smooth position
+-border smooth, but it can also just smooth border
+	-how to design it?
+
+**Curve Linear
+-stop mode also to support decimal shift
+	-decimal shfit default from 1 to 0.
+
+UV Deformer
+-Source rename tob Surface
+-UVMap string no label.
+
+**Helical Connections
+-Default Vs. Custom mode in 5.2
+	-Amount no longer useful when using custom mode?
+-> a sample is done. wait ntl future to depoly it.
+
+**Remove Trash Code:
+--cleaning up ZA_19 Curve Deformers
+--UV deformer
+--Bend Deformer
+	-Clean up ZB_11 group.
+	x-the "captured scale" is not used as multiplied early with angle.
+		-> should be removed in 5.2 LTS
+		-> since FEEZ implementation, this doesn't exist anymore?
+	--origin preview, the position input for points.
+--Mirror Modifier
+	-some is "Points/Instance" on closure is no longer used.
+
+Delay Falloff
+x-new way of looping.
+	-currently looping each, can field statistic to loop as a whole?
+		x-> not possible, because field statistic requires domain.
+
+**Text Mesh
+-incorporate the string to curve node.
+-output index in case need split to instance?
+
+Curve Deformer
+-fix bug due to realized instance in "Point Instance geometry"
+
+S_Venetian Blinds
+-fix from Sin Function change
+-use a more easily understandable phase.
+
+Sample in Proximity
+-rewrite
+	-since now interpolation can be made with falloff
+-currently not supporting instances. but all other geometry types.
+
+Paint Wave Solver
+-spread mode falloff uses greater than to be only 0 & 1.
+	-originally diffused values are lower & newly added brush made it higher.
+
+Scale Selection
+-needs to support float.
+-what if the input float & subtracting float needs to be a bit different?
+	-it's the issue specific to paint wave solver falloff I think.
+-> previous paint wave solver change.
+
+Hair on Geometry
+-Count & Count per curve must be clearly separated.
+	-otherwise mixing can freeze computer.
+-falloff needs to be captured before instancing hairs.
+
+Add: Grid Viewer
+
+Spherical Geo
+-settings update? in the past it has to use level because no hiding inputs.
+	-add resolution factor as multiplier
+-UVMap as modifier default to 
+-dual mesh mabe made separately for all other types.
+	-note dual mesh mode won't work for UV Deformer regardless though.
+
+**Remove Trash Code:
+-cleaning up ZA_19 Curve Deformers
+-UV deformer
+-Bend Deformer
+	-Clean up ZB_11 group.
+	-the "captured scale" is not used as multiplied early with angle.
+		-> should be removed in 5.2 LTS
+	-origin preview, the position input for points.
+-Mirror Modifier
+	-some constant socket on closure is no longer used.
+
+**Random Value
+	-fix Var % in presets.
+-attribute viewer
+-cloud generator
+-exploded view
+x-fill curve tube
+	-abs var.
+-follow curves
+--grass generator
+	-bend, width, scale
+-hair on geometry
+-hair on surface
+-motion var
+x-random color
+	-all abs Var.
+-random helices distribute
+-random spirals
+-set branch parameter
+	-?
+-tree generator
+	-?
+
+Hair on Geometry
+-add implicit geometry of a grid to easily support UV deformer.
+
+World BG
+-clean up the common part using closure.
+
+Helical Connections
+-mode to use original curve radius? and set even smaller cure radius automatically?
+
+Spherical Geo
+-definitely needs indication of vertices count.
+	-otherwise can be risky when exploding vertices count in different mode.
+
+Knit Surface
+-Add Freq in Sine mode.
+-need various information about index
+
+*Hair on Geometry
+x-should test about join original geometry?
+	-useful if single geo + Single hair gen.
+	-but if single geo for multiple hair gen. may not that helpful.
+
+Get UVMap Seam
+-Implement better face corner-based method.
+	-merge by distance can disrupt overlapping UVMap and pack UV island result
+-> result is definitely correct, performance also sometimes better.
+	-especially when split edges will take more time like in icosphere.
+	-for suzanne head it seems taking long time for unknown reason?
+		-but at least the result is ensured correct.
+
+UV Deformer
+-surface can't really take collection, because likely multiple islands each having 0-1 UV.
+	-known issue. even though FEEZ can solve it. mesh island & layer support becomes difficult?
+		-what about performance of pack UV island?
+	-> for the moment perhaps add warnings if UV surface seems overlapping but how?
+-> decide to always Pack UV island.
+	-plus the improvement of Get UVMap seam.
+
+Helical Connections
+-supported better autonomatic radius detections and decisions from now on.
+
+UV Deformer
+-UV deformer is known to stretch apart the vertices.
+	-but another important cv is radius won't be directly influenced.
+	-> is there way to improve it?
+-> seems to be linked with normal factor, which is also compensating the loss.
+-Instance warning should cover the surface too.
+
+Knit Surface
+-X Amplitude will be normalized to 1 regardless of frequency.
+
+Add: Hue/Sat/Value
+-separate Color & Combine Color method.
+
+Bevel Curve
+-due to dependency issue resolved in #154760
+	-warning now has better inference and actually shows some sockets that were not shown before.
+
+Grid Array
+-allow vector scale.
+
+Points Distribute
+-warning improvement in case if the selection is meant to have no points
+	-no need to warn if expected.
+-add density in case requirement of switching.
+-also study how the blender nodes are doing for the amount and performance.
+	x-it was using similar method to count ratio, but also repeat zone X5 for accuracy.
+	-> use original method, don't think repeat zone is required.
+
+Curve Linear
+-support decimal shift for both modes. default to be 0 now.
+
+Merge by Distance Curve
+-keep original radius
+
+Curve Deformer
+-bypass if no curve input
+-add warning if wrong curve geometry types input
+
+Animate
+-socket visibility fix.
+
+Radial Array
+-add index
+-when no point is available, use 3D marker
+
+Bounding box falloff
+-flip should support instance?
+-instance mode for non-instance should have warning.
+
+**Bounding Box Falloff
+-rewrite using For Each Element.
+-removing duplicate in main algorithm using closure.
+-support local and global axis
+-improved performance by a lot.
+	-because old instance bounding box global is using Split to Instance.
+
+Instance Bounding Box
+-rewrite to remove reliance on Split to Instance
+
+Mirror Modifier
+-disrupting curves somehow
+	-needs to fix LTS as well?
+-> mesh boolean was using thin-tube, it was too thick to be merged.
+	-LTS didn't fully support curve in this case.
+
+Normal Displacement
+-default change to 5m decimal shift 2 instead of 0.5 DS 1.
+
+**Bevel Curve
+-Improve UV generation to not rely on additional mesh generation
+	-improve performance by 2X
+-UV 0-1 test passed.
+-length test passed.
+-count 2 test passed.
+-Organize panel & add option to store UVL.
+
+**Falloff Animation
+	-can use mix instead of Map Range for -1 to 1 range.
+	-not a must change, just visually improving for internal maintainence.
+-proximity falloff, mesh falloff, center falloff
+-directional falloff
+-radial falloff
+-bounding box falloff
+
+Add: Ratio
+-currently only support direct ratio.
+	-inverse ratio is made but I don't know the use case at this moment.
+
+Point Instance Geometry
+-allow capture attribute for instance...
+	x-use closure instead of directly on instance on points?
+		-no because can't output it directly otherwise.
+
+Inertial Deformer
+-Is ID valid was not working since 5.0
+	-fixed.
+
+Follow Curves
+-Sampling color was passing to float.
+	-fixed
+
+Mix Mesh Normal by Proximity
+-fix from proximity falloff change
+
+Knit Unit
+-fix fatal bug due to curve linear decimal and Grid decimal.
+
+Rod
+-fix parameter
+****************************************************************************************************
+The Newest Test Demo Tree: ZG_12.
+To Do:
+**Don't Show Manage Panel
+	-only for modifier nodes
+	-only if related with bake and output attribute.
+
+Add: Bridge Curve Loop?
+-curve version to bridge edge loop, etc.
+
+Curve Fill Fracture
+-update for distribution method.
+-also to enable split to instances for fracture-pieces?
+
+Fill Curve Tube
+-rewrite to also decide whether to scale or set the radius?
+
+UV Deformer
+-allow length UV?
+
+Woven Surface
+-allow vector dimension? for length UV beyond 0-1?
+
+UV deformer
+-Can from custom have option to support BBox or custom geo.
+-Bounding Box evalua should support offset?
+
+New Grid Nodes to update old grid preset.
+-dilate/erode for offset.
+
+**grass generator
+	-rewrite since bend deformer support without FEEZ now?
+
+Paint Wave Solver
+-if the temporal sample index is not working properly like for boolean object.
+	-how to control outside?
+	-> menu with nearest?
+
+Snap Function
+-can it be made smoother?
+
+Rod
+-using Blender's curve to tube for better UV?
+	-need performance test.
+
+Parenting
+-Object should always use relative?
+	-what if evaluating as point Vs. evaluate its geometry?
+	-what if the object itself is parented to another??
+
+Bevel Curve
+-implement Even Thickness?
+
+Add: Align Rotation to Secondary Axis
+-use align rotation to vector with pivot axis?
+-design use set curve normal as an example.
+	-normal, vector (vector + object), etc?
+
+Radial Array
+-curve circle should have normal facing upwards for easier understanding of axes?
+
+Dynamic Curve Sampling
+-add warning as in DSS.
+
+Add: Project UV from View
+
+Offset Origin
+Center Geoemtry
+-should also output a transform so that invert operation can be possible?
+
+Curve Linear
+-The curve has normal inherently facing downwards, why?
+-should I set radius at low?
+
+Attribute Viewer
+-support face corner with better positioning of the existing vector.
+
+Add: S_Parallax Occlusion
+
+Add: New Tree Generator
+-attach in sequence. using bundle?
+
+**Random Color
+-use the new Hue/Saturation/Value for consistency in design.
+-only do that from 5.4
+
+**Deprecating due to existing Assets
+-G_Edge Length.
+
+**Remove Trash Code:
+-cleaning up ZA_19 Curve Deformers
+-UV deformer
+-Bend Deformer
+	-Clean up ZB_11 group.
+	-the "captured scale" is not used as multiplied early with angle.
+		-> should be removed in 5.2 LTS
+	-origin preview, the position input for points.
+-Mirror Modifier
+	-some constant socket on closure is no longer used.
+********************************************************
+5.2:
+Gizmo Study
+	-for falloff to use gizmo?
+-proximity falloff
+	-gizmo only allow single-value offset.
+		-> for different mode I need different setup for offset?
+	-location offset seems tricky because it requires exposure?
+-directional falloff
+	-doable, but likely extremely complicate.
+-radial falloff
+-dot product falloff
+-Store UVMap
+	-support gizmo? especially in scaling & others.
+		-probably not a good idea since gizmo is difficult to control.
+
+Is Inside View
+-https://projects.blender.org/blender/blender/pulls/158966
+	-is fixing sensor size for sensor fit.
+	-I made the fix, but now given fix upstream, i need to check new behavior.
+
+Geometry Component
+-perhaps to simplify sample in proximity?
+
+**Implicit Named Attribute input
+-all UVMap
+	-UV deformer
+	-UV viewer
+	-Get UV seam...
+-radius attribute?
+		-but what if no radius? currently lots fallback evalua of radius.
+	-Helical Connections
+		-scale mode
+	-Set Geo Radius
+	-
+
+**Deprecation after 5.2 LTS:
+-Set Curve Tilt Alignment
+	-Set Curve Tilt by Normal
+-Random Helices Distribution
+	-Random Spirals
+	-remove in 5.2
+-Set particle parameters
+	-this node should be completely ungrouped and removed to be replaced by Join Particles.
+-Hair on Surface
+	-integrated into Hair on Geometry.
+	-remove in 5.2
+-Spline Info
+	-Curve Info
+-G_Boundary Selection
+-G_Set Curve radius
+	-included and replaced by "G_Set Geo radius" to also support points.
+	-warning only upto 5.2, remove in 5.4?
+-G_Randomness
+	-warning only upto 5.2, remove in 5.4.
+-Noise 3D
+-Voronoi 3D
+
+**Trash Code Removal
+-Helical Connections
+	-Keep Curve Radius is replaced by Expansion Radius capture.
+****************************************************************************************************
+GN-Known Issue:
+Tree Generator
+-Noises displacement is displacing branches out of way.
+-need a better interpolation for "over parameter" method.
+
+Scale Selection
+-shrink float has issue in low iterations causing jagged edges.
+	-implement so as float inverter by itself can cause huge subtraction of values.
+
+Mirror Modifier
+-edge can't handle boolean.
+	-> curves not simply to edge but to thin tube. then merged back to curve.
+	-without merge by ID, sometimes it's over mergring and disrupt radius.
+
+Solidified Outline
+-it can't really be made into sequence, likely because of double extrusion.
+	-is it really needed to be fixed?
+
+Array on Curves
+-stability issue
+	-changing in length can disrupt the array on curves.
+	-instance on point mode will be the most stable by length.
+		-but instancing method by itself doesn't allow offset along curve.
+-> to allow instancing method, need to get the offset to recover the position and parameter?
+	-as long as they are resampled, poitns will be moved.
+-> difficult to solve it now.
+
+Inertial Deformer
+-have rough support for newly generated geometry.
+	-but in case of reversed index generation still tons of issue.
+	-Temporal Sampling seems not working great. It really needs Sample by ID.
+
+Add Curve Branch
+-this one is broken now due to hierarchy issue?
+	-Use different modes for Inside Simulation Vs. Inside Loop.
+
+Curve Split
+-will lose material set before, because there's conversion within.
+	-can add material back using join geometry and delete method.
+	-need to check performance to see if it's needed.
+-but hair on geometry still can't be fixed, because it already has set material at the end.
+
+Animate
+-is having a curve scape goat inside for warning evaluation.
+
+Curve Extrapolation
+-can't completley bypass using selection, because curve to mesh has no selection and must happen.
+-in some dynamic cases it will switch the curve Index and thus point index too.
+
+Face Points
+-Join Vertices Points will cause evaluation disturbance.
+	-likely due to sample index disturbance?
+-> perhaps better solved by closure to duplicate functions.
+	-for now it seems working or not working anyway. pending.
+-Dual Mesh doesn't mean the exact vertices location.
+	-as avg. point to form polygon for face points can be bad at low subd.
+-Join Vertex Points function needs some more thoughts.
+	-while it's working on basic case.
+	-dynamic case require sampling and capture on respective domain.
+		-which is not exposed and has to be done outside.
+
+Hair on Geometry
+-in surface cling, Proximity targets differently for each point in complex geometry
+
+Dynamic Space Sampling
+-Curve Tangent/grid edge tangent method is not working
+	-because they aren't stable relative to geometry?
+-basic setup is working.
+	-but somehow moving as a whole in complex scene. why?
+
+Tracer
+-I think there are cases you don't want to delete trace when they are deleted?
+
+Solidify
+-In Instance Mode, Merge by Distance Not Working.
+
+Freeze Geometry
+-what if different geometry requiring different status of freeze?
+	-switch node can't accept Field.
+	-Separate Geometry for Freeze?
+		-if the index is changing, what to do?
+
+Join Particles
+-Should Inheret the previous velocity?
+	-currently the velocity must be newly written.
+
+Add: Mesh Tangent?
+-How to make sure between vertex & face tangent?
+
+Step Extrude
+-The stop mode currently doesn't support attribute for multiple polygons.
+
+Bevel Curve
+-give warning in Mesh Instances.
+	-curve to mesh will work in curve instances wtho realization.
+-when used as a modifier for mesh, it will cause lose of material.
+	-because of Mesh to Curve step.
+****************************************************************************************************
+Investigation:
+Bevel Curve
+-investigate UV Length Multiplier.
+	-seems if field is in scale it will be as if it's determined with statistic?
+	-but generally still working.
+
+Hair on Geometry
+-investigate why subdivide curve is causing issue without capturing.
+
+Join Particles
+-Investigate: why joining 2/frame has more hits than joining 1/frame?
+	-seems to only happen if using temporal object info?
+
+Helical Connections
+-is it possible to auto-detect the decimals when connecting in chains?
+	-difficult, so far no success.
+
+Unknown Nodes:
+-Group Index, Count Per Island.
+-Group per Domain
+-Iteration Count per Domain.
+	-used to be for repeat zone. but currently questionable.
