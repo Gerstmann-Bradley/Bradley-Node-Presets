@@ -1,5 +1,5 @@
 {
-  "asset_count": 576,
+  "asset_count": 569,
   "file_count": 2,
   "assets": [
     {
@@ -10656,39 +10656,6 @@
       }
     },
     {
-      "name": "G_Hair on Surface",
-      "id_type": "NODETREE",
-      "files": [
-        "5.3/Bradley Preset@b5_3.blend"
-      ],
-      "bl_versions": {
-        "min": "5.3"
-      },
-      "meta": {
-        "catalog_id": "8e88483b-51ee-48a7-94a8-9e235dd2bd1a",
-        "author": "Bradley_Animation",
-        "license": "CC-0",
-        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
-        "properties": [
-          {
-            "name": "type",
-            "type": "IDP_INT",
-            "value": 3
-          },
-          {
-            "name": "geometry_node_asset_traits_flag",
-            "type": "IDP_INT",
-            "value": 0
-          },
-          {
-            "name": "node_tool_idname",
-            "type": "IDP_STRING",
-            "value": "geometry.g_hair_on_surface"
-          }
-        ]
-      }
-    },
-    {
       "name": "G_Hash Seed",
       "id_type": "NODETREE",
       "files": [
@@ -11736,29 +11703,6 @@
       }
     },
     {
-      "name": "G_Noise 3D",
-      "id_type": "NODETREE",
-      "files": [
-        "5.3/Bradley Preset@b5_3.blend"
-      ],
-      "bl_versions": {
-        "min": "5.3"
-      },
-      "meta": {
-        "catalog_id": "6334e6bb-7e69-4c50-b078-1375c1de01e1",
-        "author": "Bradley_Animation",
-        "license": "CC-0",
-        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
-        "properties": [
-          {
-            "name": "type",
-            "type": "IDP_INT",
-            "value": 3
-          }
-        ]
-      }
-    },
-    {
       "name": "G_Noise Texture",
       "id_type": "NODETREE",
       "files": [
@@ -12327,39 +12271,6 @@
             "name": "type",
             "type": "IDP_INT",
             "value": 3
-          }
-        ]
-      }
-    },
-    {
-      "name": "G_Random Helices Distribution",
-      "id_type": "NODETREE",
-      "files": [
-        "5.3/Bradley Preset@b5_3.blend"
-      ],
-      "bl_versions": {
-        "min": "5.3"
-      },
-      "meta": {
-        "catalog_id": "0751173a-655d-495d-8438-3426ca633ea4",
-        "author": "Bradley_Animation",
-        "license": "CC-0",
-        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
-        "properties": [
-          {
-            "name": "type",
-            "type": "IDP_INT",
-            "value": 3
-          },
-          {
-            "name": "geometry_node_asset_traits_flag",
-            "type": "IDP_INT",
-            "value": 64
-          },
-          {
-            "name": "node_tool_idname",
-            "type": "IDP_STRING",
-            "value": "geometry.g_random_helices_distribution"
           }
         ]
       }
@@ -13134,39 +13045,6 @@
       }
     },
     {
-      "name": "G_Set Curve Tilt Alignment",
-      "id_type": "NODETREE",
-      "files": [
-        "5.3/Bradley Preset@b5_3.blend"
-      ],
-      "bl_versions": {
-        "min": "5.3"
-      },
-      "meta": {
-        "catalog_id": "087685d4-87ee-41f8-8e5e-6ba68ce25469",
-        "author": "Bradley_Animation",
-        "license": "CC-0",
-        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
-        "properties": [
-          {
-            "name": "type",
-            "type": "IDP_INT",
-            "value": 3
-          },
-          {
-            "name": "geometry_node_asset_traits_flag",
-            "type": "IDP_INT",
-            "value": 0
-          },
-          {
-            "name": "node_tool_idname",
-            "type": "IDP_STRING",
-            "value": "geometry.g_set_curve_tilt_alignment"
-          }
-        ]
-      }
-    },
-    {
       "name": "G_Set Curve Tilt by Normal",
       "id_type": "NODETREE",
       "files": [
@@ -13264,39 +13142,6 @@
             "name": "type",
             "type": "IDP_INT",
             "value": 3
-          }
-        ]
-      }
-    },
-    {
-      "name": "G_Set Particle Parameter",
-      "id_type": "NODETREE",
-      "files": [
-        "5.3/Bradley Preset@b5_3.blend"
-      ],
-      "bl_versions": {
-        "min": "5.3"
-      },
-      "meta": {
-        "catalog_id": "48915095-f283-4cc6-869c-dbbe9b90db69",
-        "author": "Bradley_Animation",
-        "license": "CC-0",
-        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
-        "properties": [
-          {
-            "name": "type",
-            "type": "IDP_INT",
-            "value": 3
-          },
-          {
-            "name": "geometry_node_asset_traits_flag",
-            "type": "IDP_INT",
-            "value": 0
-          },
-          {
-            "name": "node_tool_idname",
-            "type": "IDP_STRING",
-            "value": "geometry.g_set_particle_parameter"
           }
         ]
       }
@@ -14659,29 +14504,6 @@
       }
     },
     {
-      "name": "G_Voronoi 3D",
-      "id_type": "NODETREE",
-      "files": [
-        "5.3/Bradley Preset@b5_3.blend"
-      ],
-      "bl_versions": {
-        "min": "5.3"
-      },
-      "meta": {
-        "catalog_id": "6334e6bb-7e69-4c50-b078-1375c1de01e1",
-        "author": "Bradley_Animation",
-        "license": "CC-0",
-        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
-        "properties": [
-          {
-            "name": "type",
-            "type": "IDP_INT",
-            "value": 3
-          }
-        ]
-      }
-    },
-    {
       "name": "G_Voronoi Debris",
       "id_type": "NODETREE",
       "files": [
@@ -15405,29 +15227,6 @@
       }
     },
     {
-      "name": "S_Randomness",
-      "id_type": "NODETREE",
-      "files": [
-        "5.3/Bradley Preset@b5_3.blend"
-      ],
-      "bl_versions": {
-        "min": "5.3"
-      },
-      "meta": {
-        "catalog_id": "9179201c-ea16-48d2-874f-7b7fa0b519b2",
-        "author": "Bradley_Animation",
-        "license": "CC-0",
-        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
-        "properties": [
-          {
-            "name": "type",
-            "type": "IDP_INT",
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
       "name": "S_Remap 0-1",
       "id_type": "NODETREE",
       "files": [
@@ -15884,15 +15683,15 @@
   "files": [
     {
       "path": "5.2/Bradley Preset@b5_2.blend",
-      "size_in_bytes": 6993949,
-      "hash": "SHA256:3162627e472a1489b1487d23f318d9b8f8c5458988c9becbf429e5ce322585f9",
+      "size_in_bytes": 6999103,
+      "hash": "SHA256:bb32c7dff740d83e91b305b4cd57574760329311f65d61d4201beba7829048df",
       "blender_version": "5.2.45",
       "url": "5.2/Bradley%20Preset%40b5_2.blend"
     },
     {
       "path": "5.3/Bradley Preset@b5_3.blend",
-      "size_in_bytes": 6445128,
-      "hash": "SHA256:db988764838b1ccc100e259d5c277dc16eefd127db094616d2da54d4fbcd4b7c",
+      "size_in_bytes": 6318570,
+      "hash": "SHA256:8cfbce254f9351be23c5fd4483aeaff0453f26ae44c69ee5387883cb3acad1e7",
       "blender_version": "5.3.24",
       "url": "5.3/Bradley%20Preset%40b5_3.blend"
     }
