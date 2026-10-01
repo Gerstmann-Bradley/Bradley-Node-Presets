@@ -15730,16 +15730,16 @@
   "files": [
     {
       "path": "5.2/Bradley Preset@b5_2.blend",
-      "size_in_bytes": 7004218,
-      "hash": "SHA256:95d3fe4db85a282939061ad66efb48b436d2ecf98bb49bd42aea7b23b3ba34ce",
+      "size_in_bytes": 7009320,
+      "hash": "SHA256:19a7492df34b2326293b98818e1962a30f91369f358350aa5095a1911bf3a2a0",
       "blender_version": "5.2.45",
       "url": "5.2/Bradley%20Preset%40b5_2.blend"
     },
     {
       "path": "5.3/Bradley Preset@b5_3.blend",
-      "size_in_bytes": 6321782,
-      "hash": "SHA256:66cdf899be40b5eab4d68d294463663a8958c4b7988a99b3635121d9e86b90fa",
-      "blender_version": "5.3.24",
+      "size_in_bytes": 6320990,
+      "hash": "SHA256:da8ee20c36f666417ec5f98c5d3504315e1986e9badff49814f801de34c66a51",
+      "blender_version": "5.3.25",
       "url": "5.3/Bradley%20Preset%40b5_3.blend"
     }
   ]
