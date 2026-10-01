@@ -1,5 +1,5 @@
 {
-  "asset_count": 569,
+  "asset_count": 571,
   "file_count": 2,
   "assets": [
     {
@@ -6663,6 +6663,30 @@
             "name": "node_tool_idname",
             "type": "IDP_STRING",
             "value": "geometry.g_uv_deformer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "G_UVMap",
+      "id_type": "NODETREE",
+      "files": [
+        "5.2/Bradley Preset@b5_2.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2",
+        "until": "5.3"
+      },
+      "meta": {
+        "catalog_id": "cc1ae45b-5b0e-425f-95bb-581ba66ec38e",
+        "author": "Bradley_Animation",
+        "license": "CC-0",
+        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 3
           }
         ]
       }
@@ -14366,6 +14390,29 @@
       }
     },
     {
+      "name": "G_UVMap",
+      "id_type": "NODETREE",
+      "files": [
+        "5.3/Bradley Preset@b5_3.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "meta": {
+        "catalog_id": "cc1ae45b-5b0e-425f-95bb-581ba66ec38e",
+        "author": "Bradley_Animation",
+        "license": "CC-0",
+        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 3
+          }
+        ]
+      }
+    },
+    {
       "name": "G_UVMap Viewer",
       "id_type": "NODETREE",
       "files": [
@@ -15683,15 +15730,15 @@
   "files": [
     {
       "path": "5.2/Bradley Preset@b5_2.blend",
-      "size_in_bytes": 6999103,
-      "hash": "SHA256:bb32c7dff740d83e91b305b4cd57574760329311f65d61d4201beba7829048df",
+      "size_in_bytes": 7004218,
+      "hash": "SHA256:95d3fe4db85a282939061ad66efb48b436d2ecf98bb49bd42aea7b23b3ba34ce",
       "blender_version": "5.2.45",
       "url": "5.2/Bradley%20Preset%40b5_2.blend"
     },
     {
       "path": "5.3/Bradley Preset@b5_3.blend",
-      "size_in_bytes": 6318570,
-      "hash": "SHA256:8cfbce254f9351be23c5fd4483aeaff0453f26ae44c69ee5387883cb3acad1e7",
+      "size_in_bytes": 6321782,
+      "hash": "SHA256:66cdf899be40b5eab4d68d294463663a8958c4b7988a99b3635121d9e86b90fa",
       "blender_version": "5.3.24",
       "url": "5.3/Bradley%20Preset%40b5_3.blend"
     }

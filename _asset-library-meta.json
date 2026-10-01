@@ -2,7 +2,7 @@
   "api_versions": {
     "v1": {
       "url": "_v1/asset-index.json",
-      "hash": "SHA256:5c52caf5606a6ac464145503353fec102dfb6ae7b4e31dfd174a6d35a80e5e95"
+      "hash": "SHA256:3811fb6edb63fe30323a80e559d423f6657e9ca8a1504f866fdecfa64289041c"
     }
   },
   "name": "Bradley Node Presets",
