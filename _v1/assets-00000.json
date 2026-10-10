@@ -4140,6 +4140,11 @@
             "name": "type",
             "type": "IDP_INT",
             "value": 3
+          },
+          {
+            "name": "geometry_node_asset_traits_flag",
+            "type": "IDP_INT",
+            "value": 64
           }
         ]
       }
@@ -12048,6 +12053,11 @@
             "name": "type",
             "type": "IDP_INT",
             "value": 3
+          },
+          {
+            "name": "geometry_node_asset_traits_flag",
+            "type": "IDP_INT",
+            "value": 64
           }
         ]
       }
@@ -15730,15 +15740,15 @@
   "files": [
     {
       "path": "5.2/Bradley Preset@b5_2.blend",
-      "size_in_bytes": 7001881,
-      "hash": "SHA256:4f40cba0816b8227bdb21024a0dd66c5759b9133f712a65e1e4baf22802e6a3e",
+      "size_in_bytes": 7014409,
+      "hash": "SHA256:95e0bbf0eabd33a033305426aa2b401839bc8b257de72ca8b21b7dc7cbead42e",
       "blender_version": "5.2.45",
       "url": "5.2/Bradley%20Preset%40b5_2.blend"
     },
     {
       "path": "5.3/Bradley Preset@b5_3.blend",
-      "size_in_bytes": 6315679,
-      "hash": "SHA256:47311b1f7d0ef578f657c7704badf8b0d56c8a51e0ea9d29b6b2f6441d81664c",
+      "size_in_bytes": 6317748,
+      "hash": "SHA256:25b28a515113372586573497d0336ce29b7eff7b2025065d70af419a52a66f65",
       "blender_version": "5.3.25",
       "url": "5.3/Bradley%20Preset%40b5_3.blend"
     }
