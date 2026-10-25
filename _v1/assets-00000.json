@@ -1,5 +1,5 @@
 {
-  "asset_count": 571,
+  "asset_count": 573,
   "file_count": 2,
   "assets": [
     {
@@ -8362,6 +8362,26 @@
       }
     },
     {
+      "name": "G_Arc",
+      "id_type": "NODETREE",
+      "files": [
+        "5.3/Bradley Preset@b5_3.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "meta": {
+        "catalog_id": "0751173a-655d-495d-8438-3426ca633ea4",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 3
+          }
+        ]
+      }
+    },
+    {
       "name": "G_Array on Curves",
       "id_type": "NODETREE",
       "files": [
@@ -12967,6 +12987,26 @@
       }
     },
     {
+      "name": "G_Semi-Sphere",
+      "id_type": "NODETREE",
+      "files": [
+        "5.3/Bradley Preset@b5_3.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "meta": {
+        "catalog_id": "0751173a-655d-495d-8438-3426ca633ea4",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 3
+          }
+        ]
+      }
+    },
+    {
       "name": "G_Separate Geometry by ID",
       "id_type": "NODETREE",
       "files": [
@@ -15747,8 +15787,8 @@
     },
     {
       "path": "5.3/Bradley Preset@b5_3.blend",
-      "size_in_bytes": 6432205,
-      "hash": "SHA256:7a116346bf6847eea5e0afe4990768d42036a8cdbb03f5712c34b316b79b604f",
+      "size_in_bytes": 6461390,
+      "hash": "SHA256:585f234f60c41c274cf83ba730c70b08a4bf5f528094698c12579a0303c0dc48",
       "blender_version": "5.3.31",
       "url": "5.3/Bradley%20Preset%40b5_3.blend"
     }
