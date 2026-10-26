@@ -12339,25 +12339,11 @@
         "min": "5.3"
       },
       "meta": {
-        "catalog_id": "6334e6bb-7e69-4c50-b078-1375c1de01e1",
-        "author": "Bradley_Animation",
-        "license": "CC-0",
-        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
         "properties": [
           {
             "name": "type",
             "type": "IDP_INT",
             "value": 3
-          },
-          {
-            "name": "geometry_node_asset_traits_flag",
-            "type": "IDP_INT",
-            "value": 64
-          },
-          {
-            "name": "node_tool_idname",
-            "type": "IDP_STRING",
-            "value": "geometry.g_random_per_island"
           }
         ]
       }
@@ -15787,8 +15773,8 @@
     },
     {
       "path": "5.3/Bradley Preset@b5_3.blend",
-      "size_in_bytes": 6482188,
-      "hash": "SHA256:ee8cef74c0c0d24b633790eb2b9d7d9f698bfc65bb52662abc475427187b9082",
+      "size_in_bytes": 6510999,
+      "hash": "SHA256:273c66c7d3c96c2a552158457d934ca6bbcd77d829895715d8ca8f3a003363c5",
       "blender_version": "5.3.31",
       "url": "5.3/Bradley%20Preset%40b5_3.blend"
     }
