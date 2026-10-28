@@ -1,5 +1,5 @@
 {
-  "asset_count": 573,
+  "asset_count": 574,
   "file_count": 2,
   "assets": [
     {
@@ -8814,6 +8814,36 @@
       }
     },
     {
+      "name": "G_Camera Wiggler",
+      "id_type": "NODETREE",
+      "files": [
+        "5.3/Bradley Preset@b5_3.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "meta": {
+        "description": "This function is intended to be used as a modifier to generate wiggled points based on the Ref Camera's location.\nA secondary camera used for rendering can then use \"Copy Transform\" to follow the Ref Camera and \"Geometry Attribute\" to override its position with the wiggled points, adding a wiggle effect to the Ref Camera movement.",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 3
+          },
+          {
+            "name": "geometry_node_asset_traits_flag",
+            "type": "IDP_INT",
+            "value": 64
+          },
+          {
+            "name": "node_tool_idname",
+            "type": "IDP_STRING",
+            "value": "geometry.ze_33_planar_remesh"
+          }
+        ]
+      }
+    },
+    {
       "name": "G_Cell Fracture",
       "id_type": "NODETREE",
       "files": [
@@ -15773,8 +15803,8 @@
     },
     {
       "path": "5.3/Bradley Preset@b5_3.blend",
-      "size_in_bytes": 6423330,
-      "hash": "SHA256:588e0a785ec3326277d540cf10ea7ec1e4820d643100d9b68a46cb17788893e2",
+      "size_in_bytes": 6433854,
+      "hash": "SHA256:69bf795f8eadd0fceb92e557962f8fc38cb1e29982536e872a62a96aabbb64bb",
       "blender_version": "5.3.31",
       "url": "5.3/Bradley%20Preset%40b5_3.blend"
     }
