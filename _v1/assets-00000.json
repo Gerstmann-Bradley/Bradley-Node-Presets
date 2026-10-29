@@ -1,5 +1,5 @@
 {
-  "asset_count": 574,
+  "asset_count": 575,
   "file_count": 2,
   "assets": [
     {
@@ -11625,6 +11625,32 @@
       }
     },
     {
+      "name": "G_Mesh Flattener",
+      "id_type": "NODETREE",
+      "files": [
+        "5.3/Bradley Preset@b5_3.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "meta": {
+        "catalog_id": "1dad0d0f-afd4-408f-91f0-2f1226926d66",
+        "description": "This function flattens geometry based on camera depth, preserving its appearance from the camera's perspective while removing its depth.",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 3
+          },
+          {
+            "name": "geometry_node_asset_traits_flag",
+            "type": "IDP_INT",
+            "value": 64
+          }
+        ]
+      }
+    },
+    {
       "name": "G_Mesh Rolling",
       "id_type": "NODETREE",
       "files": [
@@ -15805,8 +15831,8 @@
     },
     {
       "path": "5.3/Bradley Preset@b5_3.blend",
-      "size_in_bytes": 6446481,
-      "hash": "SHA256:405a90dbe0acfc0be5ccad0e30e7176b2e0fe8695321a356c7d868e1ce2b9ab3",
+      "size_in_bytes": 6457506,
+      "hash": "SHA256:07d80ece9564fd3383200a8dcdf52402bdad02acbd5b22da83f924f0b5b4fef1",
       "blender_version": "5.3.31",
       "url": "5.3/Bradley%20Preset%40b5_3.blend"
     }
