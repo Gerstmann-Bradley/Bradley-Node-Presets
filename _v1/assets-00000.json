@@ -8823,6 +8823,7 @@
         "min": "5.3"
       },
       "meta": {
+        "catalog_id": "1dad0d0f-afd4-408f-91f0-2f1226926d66",
         "description": "This function is intended to be used as a modifier to generate wiggled points based on the Ref Camera's location.\nA secondary camera used for rendering can then use \"Copy Transform\" to follow the Ref Camera and \"Geometry Attribute\" to override its position with the wiggled points, adding a wiggle effect to the Ref Camera movement.",
         "properties": [
           {
@@ -12369,6 +12370,7 @@
         "min": "5.3"
       },
       "meta": {
+        "catalog_id": "6334e6bb-7e69-4c50-b078-1375c1de01e1",
         "properties": [
           {
             "name": "type",
@@ -15796,15 +15798,15 @@
   "files": [
     {
       "path": "5.2/Bradley Preset@b5_2.blend",
-      "size_in_bytes": 7019243,
-      "hash": "SHA256:ed8853fb771a5ae65d30e3269979d908a926d7e42f954e8f9166d9f857940743",
+      "size_in_bytes": 7023875,
+      "hash": "SHA256:a3d53163749393ee18d7984cd8cc2f0f78144b2dc2ef030ed26911487388363c",
       "blender_version": "5.2.45",
       "url": "5.2/Bradley%20Preset%40b5_2.blend"
     },
     {
       "path": "5.3/Bradley Preset@b5_3.blend",
-      "size_in_bytes": 6433854,
-      "hash": "SHA256:69bf795f8eadd0fceb92e557962f8fc38cb1e29982536e872a62a96aabbb64bb",
+      "size_in_bytes": 6446481,
+      "hash": "SHA256:405a90dbe0acfc0be5ccad0e30e7176b2e0fe8695321a356c7d868e1ce2b9ab3",
       "blender_version": "5.3.31",
       "url": "5.3/Bradley%20Preset%40b5_3.blend"
     }
