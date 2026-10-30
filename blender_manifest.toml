@@ -1,0 +1,13 @@
+schema_version = "3.2"
+id = "bradley_node_presets"
+name = "Bradley Node Presets"
+version = "3.2"
+tagline = "Focusing on the motion graphics and VFX aspects of node systems."
+maintainer = "Bradley Animation"
+type = "add-on"
+permissions = ["files", "network"]
+tags = ["Geometry Nodes"]
+blender_version_min = "4.2.0"
+license = ["CC-0"]
+website = "https://github.com/Gerstmann-Bradley/Bradley-Node-Presets"
+copyright = ["Bradley Animation"]
