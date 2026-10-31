@@ -1,5 +1,5 @@
 {
-  "asset_count": 576,
+  "asset_count": 577,
   "file_count": 2,
   "assets": [
     {
@@ -15043,6 +15043,50 @@
       }
     },
     {
+      "name": "S_Gradient Propagate",
+      "id_type": "NODETREE",
+      "files": [
+        "5.3/Bradley Preset@b5_3.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "meta": {
+        "catalog_id": "f3309f19-40ca-4fc7-8283-31af16ed7064",
+        "author": "Bradley_Animation",
+        "description": "Creates a moving band based on a gradient, with adjustable width and position.",
+        "license": "CC-0",
+        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "S_Gradient Wipe",
+      "id_type": "NODETREE",
+      "files": [
+        "5.3/Bradley Preset@b5_3.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "meta": {
+        "description": "A conventional wipe-in or wipe-out using a normalized 0\u20131 gradient.",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "name": "S_Hash Seed",
       "id_type": "NODETREE",
       "files": [
@@ -15214,29 +15258,6 @@
       },
       "meta": {
         "catalog_id": "0b9d651f-8bf5-4327-b3d6-e8d9d52926e1",
-        "author": "Bradley_Animation",
-        "license": "CC-0",
-        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
-        "properties": [
-          {
-            "name": "type",
-            "type": "IDP_INT",
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "name": "S_Plane Edge Gradient",
-      "id_type": "NODETREE",
-      "files": [
-        "5.3/Bradley Preset@b5_3.blend"
-      ],
-      "bl_versions": {
-        "min": "5.3"
-      },
-      "meta": {
-        "catalog_id": "2a535be9-c59f-4f82-8629-c394b7637e67",
         "author": "Bradley_Animation",
         "license": "CC-0",
         "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
@@ -15618,6 +15639,30 @@
       }
     },
     {
+      "name": "S_UV Edge Gradient",
+      "id_type": "NODETREE",
+      "files": [
+        "5.3/Bradley Preset@b5_3.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "meta": {
+        "catalog_id": "2a535be9-c59f-4f82-8629-c394b7637e67",
+        "author": "Bradley_Animation",
+        "description": "Adds noise to the normalized UV boundaries, \ncreating a distorted transition along the UV edges.",
+        "license": "CC-0",
+        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "name": "S_Value Interpolate",
       "id_type": "NODETREE",
       "files": [
@@ -15756,29 +15801,6 @@
       }
     },
     {
-      "name": "S_Wave Propagate",
-      "id_type": "NODETREE",
-      "files": [
-        "5.3/Bradley Preset@b5_3.blend"
-      ],
-      "bl_versions": {
-        "min": "5.3"
-      },
-      "meta": {
-        "catalog_id": "f3309f19-40ca-4fc7-8283-31af16ed7064",
-        "author": "Bradley_Animation",
-        "license": "CC-0",
-        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
-        "properties": [
-          {
-            "name": "type",
-            "type": "IDP_INT",
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
       "name": "T_Wrap to Surface from View",
       "id_type": "NODETREE",
       "files": [
@@ -15844,15 +15866,15 @@
   "files": [
     {
       "path": "5.2/Bradley Preset@b5_2.blend",
-      "size_in_bytes": 7020906,
-      "hash": "SHA256:efa74f388ca5a59b41ffaee9e359f6a5331be8dd8a4a086d8d816fc2d417dd31",
+      "size_in_bytes": 7022127,
+      "hash": "SHA256:7e67e4a8b0f5f50e7fd6bd15c95bb6aa8c818a91872bfbc6ab90c3082de7aadc",
       "blender_version": "5.2.45",
       "url": "5.2/Bradley%20Preset%40b5_2.blend"
     },
     {
       "path": "5.3/Bradley Preset@b5_3.blend",
-      "size_in_bytes": 6460330,
-      "hash": "SHA256:585f600d7ce936c1bcecc10d36d57b68b461f6c0aca4218eb2b12a10c6078689",
+      "size_in_bytes": 6568786,
+      "hash": "SHA256:52549b3c8750ba231789de2478a96d106cdee9f3dd71dfa5cb24ca43618a0f8b",
       "blender_version": "5.3.31",
       "url": "5.3/Bradley%20Preset%40b5_3.blend"
     }
