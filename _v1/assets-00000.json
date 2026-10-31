@@ -1,5 +1,5 @@
 {
-  "asset_count": 577,
+  "asset_count": 576,
   "file_count": 2,
   "assets": [
     {
@@ -8372,6 +8372,9 @@
       },
       "meta": {
         "catalog_id": "0751173a-655d-495d-8438-3426ca633ea4",
+        "author": "Bradley_Animation",
+        "license": "CC-0",
+        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
         "properties": [
           {
             "name": "type",
@@ -8824,7 +8827,9 @@
       },
       "meta": {
         "catalog_id": "1dad0d0f-afd4-408f-91f0-2f1226926d66",
-        "description": "This function is intended to be used as a modifier to generate wiggled points based on the Ref Camera's location.\nA secondary camera used for rendering can then use \"Copy Transform\" to follow the Ref Camera and \"Geometry Attribute\" to override its position with the wiggled points, adding a wiggle effect to the Ref Camera movement.",
+        "author": "Bradley_Animation",
+        "license": "CC-0",
+        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
         "properties": [
           {
             "name": "type",
@@ -11635,7 +11640,9 @@
       },
       "meta": {
         "catalog_id": "1dad0d0f-afd4-408f-91f0-2f1226926d66",
-        "description": "This function flattens geometry based on camera depth, preserving its appearance from the camera's perspective while removing its depth.",
+        "author": "Bradley_Animation",
+        "license": "CC-0",
+        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
         "properties": [
           {
             "name": "type",
@@ -12397,6 +12404,9 @@
       },
       "meta": {
         "catalog_id": "6334e6bb-7e69-4c50-b078-1375c1de01e1",
+        "author": "Bradley_Animation",
+        "license": "CC-0",
+        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
         "properties": [
           {
             "name": "type",
@@ -13008,6 +13018,9 @@
       },
       "meta": {
         "catalog_id": "daf37994-6f23-48fe-aaef-e35927f7704c",
+        "author": "Bradley_Animation",
+        "license": "CC-0",
+        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
         "properties": [
           {
             "name": "type",
@@ -13061,6 +13074,9 @@
       },
       "meta": {
         "catalog_id": "0751173a-655d-495d-8438-3426ca633ea4",
+        "author": "Bradley_Animation",
+        "license": "CC-0",
+        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
         "properties": [
           {
             "name": "type",
@@ -14928,29 +14944,6 @@
       }
     },
     {
-      "name": "S_Dissipation",
-      "id_type": "NODETREE",
-      "files": [
-        "5.3/Bradley Preset@b5_3.blend"
-      ],
-      "bl_versions": {
-        "min": "5.3"
-      },
-      "meta": {
-        "catalog_id": "2a535be9-c59f-4f82-8629-c394b7637e67",
-        "author": "Bradley_Animation",
-        "license": "CC-0",
-        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
-        "properties": [
-          {
-            "name": "type",
-            "type": "IDP_INT",
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
       "name": "S_Dot Product Cartoon",
       "id_type": "NODETREE",
       "files": [
@@ -15054,7 +15047,6 @@
       "meta": {
         "catalog_id": "f3309f19-40ca-4fc7-8283-31af16ed7064",
         "author": "Bradley_Animation",
-        "description": "Creates a moving band based on a gradient, with adjustable width and position.",
         "license": "CC-0",
         "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
         "properties": [
@@ -15076,7 +15068,10 @@
         "min": "5.3"
       },
       "meta": {
-        "description": "A conventional wipe-in or wipe-out using a normalized 0\u20131 gradient.",
+        "catalog_id": "2a535be9-c59f-4f82-8629-c394b7637e67",
+        "author": "Bradley_Animation",
+        "license": "CC-0",
+        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
         "properties": [
           {
             "name": "type",
@@ -15650,7 +15645,6 @@
       "meta": {
         "catalog_id": "2a535be9-c59f-4f82-8629-c394b7637e67",
         "author": "Bradley_Animation",
-        "description": "Adds noise to the normalized UV boundaries, \ncreating a distorted transition along the UV edges.",
         "license": "CC-0",
         "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
         "properties": [
@@ -15873,8 +15867,8 @@
     },
     {
       "path": "5.3/Bradley Preset@b5_3.blend",
-      "size_in_bytes": 6568786,
-      "hash": "SHA256:52549b3c8750ba231789de2478a96d106cdee9f3dd71dfa5cb24ca43618a0f8b",
+      "size_in_bytes": 6558218,
+      "hash": "SHA256:3528871fd992874f2bde40f9815c38af58c22ad68848c2dcb63cf2bb39550868",
       "blender_version": "5.3.31",
       "url": "5.3/Bradley%20Preset%40b5_3.blend"
     }
