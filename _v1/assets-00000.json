@@ -1,5 +1,5 @@
 {
-  "asset_count": 576,
+  "asset_count": 577,
   "file_count": 2,
   "assets": [
     {
@@ -13301,6 +13301,39 @@
       }
     },
     {
+      "name": "G_Set Object Seed",
+      "id_type": "NODETREE",
+      "files": [
+        "5.3/Bradley Preset@b5_3.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "meta": {
+        "catalog_id": "6334e6bb-7e69-4c50-b078-1375c1de01e1",
+        "author": "Bradley_Animation",
+        "license": "CC-0",
+        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 3
+          },
+          {
+            "name": "geometry_node_asset_traits_flag",
+            "type": "IDP_INT",
+            "value": 64
+          },
+          {
+            "name": "node_tool_idname",
+            "type": "IDP_STRING",
+            "value": "geometry.g_set_object_seed"
+          }
+        ]
+      }
+    },
+    {
       "name": "G_Set Shade AutoSmooth",
       "id_type": "NODETREE",
       "files": [
@@ -15867,8 +15900,8 @@
     },
     {
       "path": "5.3/Bradley Preset@b5_3.blend",
-      "size_in_bytes": 6558218,
-      "hash": "SHA256:3528871fd992874f2bde40f9815c38af58c22ad68848c2dcb63cf2bb39550868",
+      "size_in_bytes": 6561508,
+      "hash": "SHA256:740e47f00cc124277c505984e1f4c393993cb0378aca33267768f1424b6042af",
       "blender_version": "5.3.31",
       "url": "5.3/Bradley%20Preset%40b5_3.blend"
     }
