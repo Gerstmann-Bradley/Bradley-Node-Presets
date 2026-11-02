@@ -1,5 +1,5 @@
 {
-  "asset_count": 577,
+  "asset_count": 576,
   "file_count": 2,
   "assets": [
     {
@@ -10560,29 +10560,6 @@
       }
     },
     {
-      "name": "G_Gravity",
-      "id_type": "NODETREE",
-      "files": [
-        "5.3/Bradley Preset@b5_3.blend"
-      ],
-      "bl_versions": {
-        "min": "5.3"
-      },
-      "meta": {
-        "catalog_id": "eb2052a3-30e8-4930-a5c7-80caeb1c0be8",
-        "author": "Bradley_Animation",
-        "license": "CC-0",
-        "copyright": "\u00a9 Youtube: https://www.youtube.com/@bradleyanimation120",
-        "properties": [
-          {
-            "name": "type",
-            "type": "IDP_INT",
-            "value": 3
-          }
-        ]
-      }
-    },
-    {
       "name": "G_Grid Array",
       "id_type": "NODETREE",
       "files": [
@@ -15900,8 +15877,8 @@
     },
     {
       "path": "5.3/Bradley Preset@b5_3.blend",
-      "size_in_bytes": 6561912,
-      "hash": "SHA256:a7e2adf11338721cae29268e6f8eed6d93270897255471e394706bf105783c20",
+      "size_in_bytes": 6560793,
+      "hash": "SHA256:3ccab03efd2f9293ee4650723429a4358c8a112b3d850761f871c7c748bec4d9",
       "blender_version": "5.3.31",
       "url": "5.3/Bradley%20Preset%40b5_3.blend"
     }
