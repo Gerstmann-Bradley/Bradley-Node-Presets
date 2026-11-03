@@ -15870,15 +15870,15 @@
   "files": [
     {
       "path": "5.2/Bradley Preset@b5_2.blend",
-      "size_in_bytes": 7026830,
-      "hash": "SHA256:4c220649d414cc8e8ea94deb6ebccd567c3b3ba3e19594c445e996e97ddb873d",
+      "size_in_bytes": 7034922,
+      "hash": "SHA256:7564b7aaa55ecfd7007944ee5f147eafe46806e20347089d03919a1738174339",
       "blender_version": "5.2.45",
       "url": "5.2/Bradley%20Preset%40b5_2.blend"
     },
     {
       "path": "5.3/Bradley Preset@b5_3.blend",
-      "size_in_bytes": 6597560,
-      "hash": "SHA256:829aa538ec07e4acbbd6a319701cbd2808b2f1c94921a521c5f735605b16f0a5",
+      "size_in_bytes": 6610324,
+      "hash": "SHA256:ca9cbd4cc87ebaffddc1f5e5798f2ba31107c616e8e7415f2e36fe698706ce74",
       "blender_version": "5.3.31",
       "url": "5.3/Bradley%20Preset%40b5_3.blend"
     }
