@@ -1,5 +1,5 @@
 {
-  "asset_count": 576,
+  "asset_count": 577,
   "file_count": 2,
   "assets": [
     {
@@ -14726,6 +14726,28 @@
       }
     },
     {
+      "name": "S_Parallax Occlusion",
+      "id_type": "NODETREE",
+      "files": [
+        "5.3/Bradley Preset@b5_3.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "meta": {
+        "catalog_id": "2a535be9-c59f-4f82-8629-c394b7637e67",
+        "author": "Bradley_Animation",
+        "license": "CC0 - Public Domain",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "name": "S_Point Light BG",
       "id_type": "NODETREE",
       "files": [
@@ -15303,8 +15325,8 @@
     },
     {
       "path": "5.3/Bradley Preset@b5_3.blend",
-      "size_in_bytes": 6620912,
-      "hash": "SHA256:8f02b6aafaf2204abd6654bb2c3d7f1938965a0e494ede7802da0ea1cd2a404f",
+      "size_in_bytes": 6552491,
+      "hash": "SHA256:33dca227298b22fe61eb21717fe2c453ea00e44c8c421904dc8346a711a1912c",
       "blender_version": "5.3.31",
       "url": "5.3/Bradley%20Preset%40b5_3.blend"
     }
