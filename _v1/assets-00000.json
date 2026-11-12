@@ -153374,11 +153374,6 @@
                     "name": "Bounding Box",
                     "type": "IDP_STRING",
                     "value": "NodeSocketGeometry"
-                  },
-                  {
-                    "name": "Invert Transform",
-                    "type": "IDP_STRING",
-                    "value": "NodeSocketVector"
                   }
                 ]
               },
@@ -153425,42 +153420,6 @@
                         "name": "description",
                         "type": "IDP_STRING",
                         "value": ""
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Socket_1",
-                    "type": "IDP_GROUP",
-                    "value": [
-                      {
-                        "name": "name",
-                        "type": "IDP_STRING",
-                        "value": "Invert Transform"
-                      },
-                      {
-                        "name": "type",
-                        "type": "IDP_INT",
-                        "value": 1
-                      },
-                      {
-                        "name": "description",
-                        "type": "IDP_STRING",
-                        "value": ""
-                      },
-                      {
-                        "name": "subtype",
-                        "type": "IDP_INT",
-                        "value": 0
-                      },
-                      {
-                        "name": "min",
-                        "type": "IDP_FLOAT",
-                        "value": -3.4028234663852886e+38
-                      },
-                      {
-                        "name": "max",
-                        "type": "IDP_FLOAT",
-                        "value": 3.4028234663852886e+38
                       }
                     ]
                   }
@@ -276367,8 +276326,8 @@
     },
     {
       "path": "5.3/Bradley Preset@b5_3.blend",
-      "size_in_bytes": 6568239,
-      "hash": "SHA256:70c17d3d59077092c46d817b243ca8c198bbee036570161eb04de335f6e441a5",
+      "size_in_bytes": 6565976,
+      "hash": "SHA256:b4dcf713341ccd8bfbb86bfee1141f639c2e1c443ca0c6261bb30b7b5f2f707a",
       "blender_version": "5.3.31",
       "url": "5.3/Bradley%20Preset%40b5_3.blend"
     }
