@@ -143678,6 +143678,47 @@
                     ]
                   },
                   {
+                    "name": "Socket_9",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Decimal Shift"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 6
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": "Shift the decimal point of the above value by powers of 10. Applies division. \nFor example: 2 \u2192 divide by 100"
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_INT",
+                        "value": 5
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_INT",
+                        "value": 0
+                      }
+                    ]
+                  },
+                  {
                     "name": "Socket_7",
                     "type": "IDP_GROUP",
                     "value": [
@@ -143770,47 +143811,6 @@
                             ]
                           }
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Socket_9",
-                    "type": "IDP_GROUP",
-                    "value": [
-                      {
-                        "name": "name",
-                        "type": "IDP_STRING",
-                        "value": "Decimal Shift"
-                      },
-                      {
-                        "name": "type",
-                        "type": "IDP_INT",
-                        "value": 6
-                      },
-                      {
-                        "name": "description",
-                        "type": "IDP_STRING",
-                        "value": "Shift the decimal point of the above value by powers of 10. Applies division. \nFor example: 2 \u2192 divide by 100"
-                      },
-                      {
-                        "name": "subtype",
-                        "type": "IDP_INT",
-                        "value": 0
-                      },
-                      {
-                        "name": "min",
-                        "type": "IDP_INT",
-                        "value": 0
-                      },
-                      {
-                        "name": "max",
-                        "type": "IDP_INT",
-                        "value": 5
-                      },
-                      {
-                        "name": "default_value",
-                        "type": "IDP_INT",
-                        "value": 0
                       }
                     ]
                   },
@@ -147790,6 +147790,7 @@
       "meta": {
         "catalog_id": "087685d4-87ee-41f8-8e5e-6ba68ce25469",
         "author": "Bradley_Animation",
+        "description": "Creates a rotation from two axis directions.\nFor meshes, Normal defines the primary axis, while the UV tangent defines the secondary axis if a UVMap attribute is available.\nFor curves, Curve Tangent defines the primary axis, while Normal defines the secondary axis.",
         "license": "CC0 - Public Domain",
         "properties": [
           {
@@ -147822,7 +147823,7 @@
                       {
                         "name": "description",
                         "type": "IDP_STRING",
-                        "value": ""
+                        "value": "The desired direction of the primary axis."
                       },
                       {
                         "name": "default_value",
@@ -147902,7 +147903,7 @@
                       {
                         "name": "description",
                         "type": "IDP_STRING",
-                        "value": ""
+                        "value": "The desired direction of the secondary axis. Ideally, this is orthogonal to the primary direction."
                       },
                       {
                         "name": "default_value",
@@ -147982,7 +147983,7 @@
                       {
                         "name": "description",
                         "type": "IDP_STRING",
-                        "value": ""
+                        "value": "Defines the 1` axis for meshes and the 2` axis for curves."
                       },
                       {
                         "name": "subtype",
@@ -148028,7 +148029,7 @@
                       {
                         "name": "description",
                         "type": "IDP_STRING",
-                        "value": ""
+                        "value": "For meshes, defines the 2` axis using the UV tangent, if the UVMap attribute is available.\nFor curves, defines the 1` axis using the Curve Tangent."
                       },
                       {
                         "name": "subtype",
@@ -276326,8 +276327,8 @@
     },
     {
       "path": "5.3/Bradley Preset@b5_3.blend",
-      "size_in_bytes": 6565976,
-      "hash": "SHA256:b4dcf713341ccd8bfbb86bfee1141f639c2e1c443ca0c6261bb30b7b5f2f707a",
+      "size_in_bytes": 6567409,
+      "hash": "SHA256:30e0ead34371ba0601b9f71a7fbe8b7a45dda70be4f27659b790682a6d13594d",
       "blender_version": "5.3.31",
       "url": "5.3/Bradley%20Preset%40b5_3.blend"
     }
