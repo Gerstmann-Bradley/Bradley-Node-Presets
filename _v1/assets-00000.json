@@ -276361,15 +276361,15 @@
   "files": [
     {
       "path": "5.2/Bradley Preset@b5_2.blend",
-      "size_in_bytes": 7030967,
-      "hash": "SHA256:a5e91b8e6f20176edd5d8832799014b3d7a3a6382e168a0a96a7aba7dc980965",
+      "size_in_bytes": 7027251,
+      "hash": "SHA256:724c084b650121ceddfafbeacf8f151b263bb9c2ba2536708b299cf5522e6959",
       "blender_version": "5.2.45",
       "url": "5.2/Bradley%20Preset%40b5_2.blend"
     },
     {
       "path": "5.3/Bradley Preset@b5_3.blend",
-      "size_in_bytes": 6584332,
-      "hash": "SHA256:dbf72a188ab3939db7f51f39573dfa3b5ad6ef1cb950f3dcfaeec103126a118a",
+      "size_in_bytes": 6584726,
+      "hash": "SHA256:371f5741d719ea61539f11a14fc606e6334b65239ae8ac83127b364d654c000c",
       "blender_version": "5.3.31",
       "url": "5.3/Bradley%20Preset%40b5_3.blend"
     }
