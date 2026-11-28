@@ -438,6 +438,14 @@ Array on Curves
 
 Join Particles
 -store attribute should be done on Instance domain for instances.
+
+Store Attribute
+-add menu for Factor vs. Value
+
+Mesh Flattener
+-should give a warning on instance.
+
+Add: G_Set UDIM UVMap
 ****************************************************************************************************
 The Newest Test Demo Tree: ZG_20
 To Do:

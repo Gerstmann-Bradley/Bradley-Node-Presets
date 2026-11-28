@@ -1,5 +1,5 @@
 {
-  "asset_count": 577,
+  "asset_count": 578,
   "file_count": 2,
   "assets": [
     {
@@ -147790,7 +147790,6 @@
       "meta": {
         "catalog_id": "087685d4-87ee-41f8-8e5e-6ba68ce25469",
         "author": "Bradley_Animation",
-        "description": "Creates a rotation from two axis directions.\nFor meshes, Normal defines the primary axis, while the UV tangent defines the secondary axis if a UVMap attribute is available.\nFor curves, Curve Tangent defines the primary axis, while Normal defines the secondary axis.",
         "license": "CC0 - Public Domain",
         "properties": [
           {
@@ -240341,7 +240340,7 @@
                       {
                         "name": "name",
                         "type": "IDP_STRING",
-                        "value": "Menu"
+                        "value": "Method"
                       },
                       {
                         "name": "type",
@@ -240399,7 +240398,112 @@
                     ]
                   },
                   {
+                    "name": "Socket_9",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Type"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 15
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "items",
+                        "type": "IDP_GROUP",
+                        "value": [
+                          {
+                            "name": "Factor",
+                            "type": "IDP_GROUP",
+                            "value": [
+                              {
+                                "name": "value",
+                                "type": "IDP_INT",
+                                "value": 0
+                              },
+                              {
+                                "name": "description",
+                                "type": "IDP_STRING",
+                                "value": ""
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Value",
+                            "type": "IDP_GROUP",
+                            "value": [
+                              {
+                                "name": "value",
+                                "type": "IDP_INT",
+                                "value": 1
+                              },
+                              {
+                                "name": "description",
+                                "type": "IDP_STRING",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
                     "name": "Socket_5",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Factor"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 15
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_FLOAT",
+                        "value": 0.0
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_FLOAT",
+                        "value": 1.0
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_FLOAT",
+                        "value": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_10",
                     "type": "IDP_GROUP",
                     "value": [
                       {
@@ -240456,7 +240560,7 @@
                       {
                         "name": "description",
                         "type": "IDP_STRING",
-                        "value": "Shift the decimal point of the above value by powers of 10. Applies division or Multiplication depending on mode. For example: 2 \u2192 divide by 100 or multiply by 100"
+                        "value": "#Deprecation Notice: the socket may be removed from 5.5\nShift the decimal point of the above value by powers of 10. Applies division or Multiplication depending on mode. For example: 2 \u2192 divide by 100 or multiply by 100"
                       },
                       {
                         "name": "subtype",
@@ -240508,7 +240612,7 @@
                       {
                         "name": "name",
                         "type": "IDP_STRING",
-                        "value": "Menu"
+                        "value": "Channel"
                       },
                       {
                         "name": "type",
@@ -276127,6 +276231,289 @@
       }
     },
     {
+      "name": "Set UDIM UVMap",
+      "id_type": "NODETREE",
+      "files": [
+        "5.3/Bradley Preset@b5_3.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "meta": {
+        "catalog_id": "3db8c9c4-96c1-4aec-a25a-1d046a64d371",
+        "author": "Bradley_Animation",
+        "license": "CC0 - Public Domain",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 3
+          },
+          {
+            "name": "properties",
+            "type": "IDP_GROUP",
+            "value": [
+              {
+                "name": "inputs",
+                "type": "IDP_GROUP",
+                "value": [
+                  {
+                    "name": "Socket_1",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Instance"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 10
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_4",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Name"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 7
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_STRING",
+                        "value": "UVMap"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_5",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "UV Map"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 1
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_FLOAT",
+                        "value": -3.4028234663852886e+38
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_FLOAT",
+                        "value": 3.4028234663852886e+38
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_ARRAY",
+                        "value": [
+                          -555.0,
+                          -555.0,
+                          -555.0
+                        ],
+                        "itemtype": "IDP_FLOAT"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_2",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Group ID"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 6
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": "Field based on Instance Index by Default"
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_INT",
+                        "value": -2147483648
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_INT",
+                        "value": 2147483647
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_INT",
+                        "value": -1
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_3",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Loop At"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 6
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_INT",
+                        "value": -2147483648
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_INT",
+                        "value": 2147483647
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_INT",
+                        "value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_6",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Realize Instance"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 4
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": "Realize all levels of nested instances for a top-level instances. Overrides the value of the Depth input"
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_BOOL",
+                        "value": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "panels",
+                "type": "IDP_GROUP",
+                "value": []
+              },
+              {
+                "name": "outputs",
+                "type": "IDP_GROUP",
+                "value": [
+                  {
+                    "name": "Geometry",
+                    "type": "IDP_STRING",
+                    "value": "NodeSocketGeometry"
+                  }
+                ]
+              },
+              {
+                "name": "output_sockets",
+                "type": "IDP_GROUP",
+                "value": [
+                  {
+                    "name": "Socket_0",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Geometry"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 10
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "name": "T_Wrap to Surface from View",
       "id_type": "NODETREE",
       "files": [
@@ -276368,8 +276755,8 @@
     },
     {
       "path": "5.3/Bradley Preset@b5_3.blend",
-      "size_in_bytes": 6586702,
-      "hash": "SHA256:d5dd6735837f5a333bd1032bcf2941042f50c0d0b2f80f1a8fd77c62adf19856",
+      "size_in_bytes": 6603491,
+      "hash": "SHA256:2bae2f1dbcb82f9e6a54af43a0c3e277c0282811465c796fa16e3141589daebe",
       "url": "5.3/Bradley%20Preset%40b5_3.blend",
       "blender_version": "5.3.31"
     }
