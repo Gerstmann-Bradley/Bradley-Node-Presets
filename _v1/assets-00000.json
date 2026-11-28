@@ -217624,6 +217624,32 @@
                     ]
                   },
                   {
+                    "name": "Socket_11",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Unified Radius"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 4
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": "Use the same radius settings for both the start and end of the spiral."
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_BOOL",
+                        "value": false
+                      }
+                    ]
+                  },
+                  {
                     "name": "Socket_1",
                     "type": "IDP_GROUP",
                     "value": [
@@ -276755,8 +276781,8 @@
     },
     {
       "path": "5.3/Bradley Preset@b5_3.blend",
-      "size_in_bytes": 6603491,
-      "hash": "SHA256:2bae2f1dbcb82f9e6a54af43a0c3e277c0282811465c796fa16e3141589daebe",
+      "size_in_bytes": 6591709,
+      "hash": "SHA256:9dc798aa1d0a32e13ab48f0abdcd31a74014cf938430a1699ea40604544f0b57",
       "url": "5.3/Bradley%20Preset%40b5_3.blend",
       "blender_version": "5.3.31"
     }
